@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.playerpanel{
+	width: 50%;
+	height:80%;
+	background-color:green;
+	background-size: cover;
+	box-shadow: 0px 10px 50px rgba(0,0,0,.3);
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 2px solid black;
+}
+.playername{
+	font-size:50px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	marker-bottom:10px;
+	position: relative;
+	font-weight: 500px;
+}
+.dice{
+	width: 150px;
+	margin-left:23%;
+	margin-top:12%;
+	position: relative;
+	opacity:0;
+}
+.currentpanel
+{
+	background: red;
+	color: white;
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 13%;
+	padding: 13px;
+	text-align: center;
+	position: relative;
+	border: 1px solid black;
+}
+.currentpanel:hover{
+    border:2px solid black;
+}
+.current-label{
+    text-align: center; 
+	font-size:30px;
+	color:white;
+}
+	
+.current-score{
+	font-size: 40px;
+}
+.button1{
+	border:1px solid black;
+	padding:1px;
+	margin-left: 57%;
+	
+	position: relative;
+	font-size: 30px;
+}
+.button1:hover{
+	font-size: 32px;
+	cursor: pointer;
+}
+.button2{
+	border: 1px solid black;
+	padding: 1px;
+	margin-left: 57%;
+    margin-top:33%;
+	position: relative;
+	font-size: 30px;
+}
+
+.button2:hover{
+	font-size: 32px;
+	cursor: pointer;
+}
+.time{
+	background: red;
+	color: white;
+	width: 35%;
+	height:125px;
+	font-size: 100px;
+	margin-left: 59%;
+	position:relative;
+	border:1px solid black;
+	text-align: center;
+    margin-top:-45%
+}
+.time:hover{
+	border:2px solid black;S
+}

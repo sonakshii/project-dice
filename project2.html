@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DICE ROLL</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/08e6c800fb.js"></script>
+	<style>
+		body{
+			background-image:url("bckgrn.jpg");
+	        background-size: cover;
+	        background-repeat: no-repeat;
+	        background-position: fixed;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="playerpanel">
+		<div class="playername"><u><b>ROLL DICE</b></u></div>
+		
+       <img src="dice-1.jpg" class="dice" id="dice-1" >
+
+		<div class="currentpanel">
+			<div class="current-label">TOTAL SCORE :</div>
+			<div class="current-score" id="text">0</div>
+		</div>
+
+        <div class="time" id="timer">
+			20
+		</div>
+	</div>
+
+
+	
+
+	<button class="button2" onclick="work()" id="yes">
+		<i class="fas fa-sync-alt"></i>&nbspROLL DICE
+	</button>
+
+	<br>
+	<br>
+    <button class="button1" onclick="initite()">
+		<i class="fas fa-plus-circle" ></i>&nbspNEW GAME
+	</button>
+   
+</body>
+</html>
